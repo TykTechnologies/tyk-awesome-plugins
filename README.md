@@ -20,8 +20,8 @@ This demo covers a basic Pre hook and an authentication middleware, based on Mic
 
 ## Python
 
-This demo covers a header injection Pre hook, using Python. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-python).
+This demo performs header injection using Pre/Post hooks. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-python).
 
 ## Ruby
 
-This demo covers a header injection Pre hook, using Ruby. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-ruby).
+This demo performs header injection using a Pre hook. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-ruby).
