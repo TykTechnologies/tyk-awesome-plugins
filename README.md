@@ -25,3 +25,7 @@ This demo performs header injection using Pre/Post hooks. Code available [here](
 ## Ruby
 
 This demo performs header injection using a Pre hook. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-ruby).
+
+## Lua
+
+This demo performs header injection using a Pre hook. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-lua).
