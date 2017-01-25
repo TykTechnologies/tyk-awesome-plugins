@@ -29,3 +29,7 @@ This demo performs header injection using a Pre hook. Code available [here](http
 ## Lua
 
 This demo performs header injection using a Pre hook. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-lua).
+
+## Protocol Buffer definitions / bindings
+
+You may find the latest Protocol Buffer definitions in [this repository](https://github.com/TykTechnologies/tyk-protobuf).
