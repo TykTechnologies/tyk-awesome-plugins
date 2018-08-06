@@ -30,6 +30,10 @@ This demo performs header injection using a Pre hook. Code available [here](http
 
 This demo performs header injection using a Pre hook. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-lua).
 
+## GoLang / RabbitMQ / RPC
+
+This demo validates an incoming `POST` request and upon success, publishes the message onto RabbitMQ queue. A worker picks up the request, creates a response and replies to a temporary `reply_to` queue with appropriate `correlation_id`. [Tyk GoLang RabbitMQ gRPC Middleware](https://github.com/asoorm/tyk-rmq-middleware).
+
 ## Protocol Buffer definitions / bindings
 
 You may find the latest Protocol Buffer definitions in [this repository](https://github.com/TykTechnologies/tyk-protobuf).
