@@ -30,6 +30,10 @@ This demo performs header injection using a Pre hook. Code available [here](http
 
 This demo performs header injection using a Pre hook. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-lua).
 
+## Javascript / JSVM
+
+This demo plugin performs [dynamic header transformation](https://gist.github.com/asoorm/4dd9f4361ad92d2f7201141fc09cbcb1) using a Pre Hook.
+
 ## GoLang / RabbitMQ / RPC
 
 This demo validates an incoming `POST` request and upon success, publishes the message onto RabbitMQ queue. A worker picks up the request, creates a response and replies to a temporary `reply_to` queue with appropriate `correlation_id`. [Tyk GoLang RabbitMQ gRPC Middleware](https://github.com/asoorm/tyk-rmq-middleware).
