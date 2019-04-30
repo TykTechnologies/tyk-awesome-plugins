@@ -38,6 +38,12 @@ This demo plugin performs [dynamic header transformation](https://gist.github.co
 
 This demo validates an incoming `POST` request and upon success, publishes the message onto RabbitMQ queue. A worker picks up the request, creates a response and replies to a temporary `reply_to` queue with appropriate `correlation_id`. [Tyk GoLang RabbitMQ gRPC Middleware](https://github.com/asoorm/tyk-rmq-middleware).
 
+## GoLang / AWS Lambda
+
+This demo allows you to specify your hook name as your lambda function name. The gRPC plugin then invokes it and responds.
+
+https://github.com/TykTechnologies/tyk-mw-grpcgo-lambda
+
 ## Protocol Buffer definitions / bindings
 
 You may find the latest Protocol Buffer definitions in [this repository](https://github.com/TykTechnologies/tyk-protobuf).
