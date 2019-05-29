@@ -30,6 +30,11 @@ This demo performs header injection using a Pre hook. Code available [here](http
 
 This demo performs header injection using a Pre hook. Code available [here](https://github.com/TykTechnologies/tyk-plugin-demo-lua).
 
+## Java
+
+This demo performs custom authentication using a gRPC server with Java Logic.  It also takes advantage of Tyk's ID extraction caching mechanism.
+https://github.com/sedkis/tyk-plugin-custom-auth-java
+
 ## Javascript / JSVM
 
 This demo plugin performs [dynamic header transformation](https://gist.github.com/asoorm/4dd9f4361ad92d2f7201141fc09cbcb1) using a Pre Hook.
