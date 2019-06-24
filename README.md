@@ -49,6 +49,12 @@ This demo allows you to specify your hook name as your lambda function name. The
 
 https://github.com/TykTechnologies/tyk-mw-grpcgo-lambda
 
+## GoLang - Native GO Plugin Authentication via AWS DynamoDB
+
+https://github.com/TykTechnologies/native-go-auth-middleware
+
+Built to be run natively as a package by Tyk Gateway, will check basic auth credentials against AWS' DynamoDB
+
 ## Protocol Buffer definitions / bindings
 
 You may find the latest Protocol Buffer definitions in [this repository](https://github.com/TykTechnologies/tyk-protobuf).
