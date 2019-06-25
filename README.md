@@ -33,7 +33,7 @@ This demo performs header injection using a Pre hook. Code available [here](http
 ## Java
 
 This demo performs custom authentication using a gRPC server with Java Logic.  It also takes advantage of Tyk's ID extraction caching mechanism.
-https://github.com/sedkis/tyk-plugin-custom-auth-java
+https://github.com/TykTechnologies/tyk-plugin-coprocess-grpc-java-custom-auth
 
 ## Javascript / JSVM
 
